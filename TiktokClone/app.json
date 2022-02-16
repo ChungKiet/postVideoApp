@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "TiktokClone",
+    "slug": "TiktokClone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config":{
+        "firebase":{
+            "apiKey": "AIzaSyBur3mI5d3yqaq7wFzxZRiEMLGOOCui3oo",
+            "authDomain": "tiktokclone-95b6f.firebaseapp.com",
+            "databaseURL": "https://tiktokclone-95b6f-default-rtdb.firebaseio.com",
+            "projectId": "tiktokclone-95b6f",
+            "storageBucket": "tiktokclone-95b6f.appspot.com",
+            "messagingSenderId": "481167363680",
+            "appId": "1:481167363680:web:fedb9b1d38ff6a44a13d05",
+            "measurementId": "G-B0VSSDGWYL"
+        }
+      }
+    }
+  }
+}
