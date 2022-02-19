@@ -4,6 +4,14 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: 'white'
     },
+    mainContainer: {
+        padding: 20
+    },
+    title: {
+        fontWeight: 'bold',
+        color: 'gray'
+    }
+
 });
 
 export default styles;
